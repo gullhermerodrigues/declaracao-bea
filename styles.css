@@ -1,0 +1,44 @@
+
+
+.body {
+    background-color: darksalmon;
+    max-height: auto;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 50px;
+    font-family: "Lora", sans-serif;
+}
+
+.margarida {
+    margin-left: 30%;
+    padding-bottom: 30%;
+
+}
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    color: thistle;
+}
+
+@media (max-width: 1200px) {
+    .titulo {
+        font-size: 50px;
+        display: flex;
+        justify-content: center;
+        margin-left: 5%;
+    }
+
+    .margarida {
+        width: 45%
+    }
+
+    
+
+
+}
+
